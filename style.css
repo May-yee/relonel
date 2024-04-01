@@ -882,7 +882,12 @@ footer .media img{
     flex-wrap: wrap;
     /* border: #1F3B2C 2px solid; */
 }
-
+@media screen and (max-width: 1040px){
+    .product .row{
+        width: 80%;
+        justify-content: center;
+    }
+}
 
 
 /* product_card */
@@ -935,13 +940,6 @@ footer .media img{
 }
 
 
-
-
-
-
-
-
-
 /* product_title */
 .product_title{
     height: 400px;
@@ -957,6 +955,13 @@ footer .media img{
     top: 50%;
     transform: translateY(-50%);
 }
+@media screen and (max-width: 1040px){
+    .food .product_title h2{
+        text-align: right;
+        padding-right: 40px;
+    }
+}
+
 @media screen and (max-width: 540px){
     .product_title{
         height: 240px;
